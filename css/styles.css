@@ -1,0 +1,183 @@
+#title{
+  background-color: #d2afff;
+}
+.titlename{
+  color:white;
+}
+
+.container-fluid{
+padding: 3% 15%;
+}
+
+h1{
+  font-family:'Playwrite Australia QLD';
+  font-weight: bold;
+  font-size: 3rem;
+  line-height:1.5;
+  color: #000059;
+}
+
+h3{
+  font-family: 'Playfair Display';
+  font-weight: bold;
+  color:#000059;
+}
+
+p{
+  color: #4f5dd6;
+  font-family:'Noto Serif Japanese'
+}
+/* Navigation Bar */
+.navbar{
+ padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-item{
+  padding:0 18px;
+}
+
+.nav-link{
+  font-family:'Montserrat', sans-serif;
+  font-size:1.2rem;
+  color: white;
+}
+
+/* Download button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Navigation Bar */
+.title-image{
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute
+}
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Features Section */
+#features{
+  padding: 7% 15%;
+  background-color: #fffcd3;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+  color:#000059;
+}
+
+.icon{
+  color:#fe019a;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #d2afff;
+}
+/* Testimonials Section */
+#testimonials{
+  text-align: center;
+  background-color: #d2afff;
+}
+
+.testimonial-h2{
+  font-family: 'LXGW WenKai Mono TC';
+  font-weight: bold;
+  font-size: 1.5;
+  color: #000059;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+  color:#4f5dd6;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+/* Press Section */
+#press{
+  background-color: #d2afff;
+  text-align: center;
+}
+.press-logo{
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#press{
+  background-color: #d2afff;
+  text-align: center;
+}
+.press-logo{
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+  background-color:  #fffcd3;
+
+}
+
+.pricing-header{
+color: #000059;
+}
+
+.pricing-column{
+  padding: 3% 2%
+}
+
+/* Call To Action Section CTA */
+#cta{
+  background-color: #d2afff;
+  color: #000059;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading{
+  font-family: 'Noto Serif Japanese';
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height:1.5; 
+}
+
+/* Footer Section */
+#footer{
+  padding:7% 15%;
+  text-align: center;
+  background-color:  #fffcd3;
+}
+
+.social-icon{
+  margin: 20px 10px;
+  color:  #fe019a
+}
+
+.copyright{
+  color: #000059;
+}
